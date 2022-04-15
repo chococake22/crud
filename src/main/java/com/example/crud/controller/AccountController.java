@@ -27,7 +27,9 @@ public class AccountController {
     @ApiOperation(value = "회원 개별 조회", notes = "개별 회원 정보를 조회합니다.")
     @GetMapping("/{accSeq}")
     public ResponseEntity getOne(@PathVariable Long accSeq) {
+        System.out.println("test");
         return new ResponseEntity<>(accountService.getOne(accSeq), HttpStatus.OK);
+
     }
 
     // 회원 전체 조회
