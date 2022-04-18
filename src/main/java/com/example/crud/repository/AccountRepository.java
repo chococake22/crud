@@ -1,12 +1,8 @@
 package com.example.crud.repository;
 
-import com.example.crud.dto.AccountCreateRequestDto;
 import com.example.crud.dto.AccountReadResponseDto;
-import com.example.crud.dto.AccountSearchRequestDto;
-import com.example.crud.dto.AccountSearchResponseDto;
 import com.example.crud.entity.Account;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
