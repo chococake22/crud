@@ -23,8 +23,6 @@ public class AccountController {
 
     private final AccountService accountService;
 
-    //dd
-
     // 회원 개별 조회
     // Optional
     @ApiOperation(value = "회원 개별 조회", notes = "개별 회원 정보를 조회합니다.")
