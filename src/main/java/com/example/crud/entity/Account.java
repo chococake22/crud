@@ -25,7 +25,6 @@ public class Account {
     private String email;
     private String phone;
 
-
     // 수정
     public void update(AccountModifyRequestDto request) {
         this.password = request.getPassword();
