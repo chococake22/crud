@@ -17,8 +17,6 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AccountController {
 
-    ////
-
     private final AccountService accountService;
 
     // 회원 개별 조회
